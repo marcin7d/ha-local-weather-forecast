@@ -1,0 +1,28 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Lokalna Prognoza Pogody",
+        "description": "Wybierz uśrednione encje czujników zewnętrznych. Ciśnienie powinno być zredukowane do poziomu morza (QNH).",
+        "data": {
+          "pressure_entity": "Ciśnienie atmosferyczne",
+          "temperature_entity": "Temperatura zewnętrzna",
+          "humidity_entity": "Wilgotność zewnętrzna"
+        }
+      }
+    },
+    "abort": {"already_configured": "Stacja jest już skonfigurowana"}
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Zmień encje stacji",
+        "data": {
+          "pressure_entity": "Ciśnienie atmosferyczne",
+          "temperature_entity": "Temperatura zewnętrzna",
+          "humidity_entity": "Wilgotność zewnętrzna"
+        }
+      }
+    }
+  }
+}
