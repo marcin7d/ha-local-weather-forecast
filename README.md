@@ -32,7 +32,7 @@ Próbkowanie co 5 minut, zapis historii co 15 minut oraz przy poprawnym wyłącz
 - **Ciśnienie musi być sprowadzone do poziomu morza** (QNH / sea-level pressure), a nie surowym ciśnieniem na wysokości stacji. Trend może działać również na ciśnieniu stacyjnym, ale interpretacja ciśnienia absolutnego wymaga poprawnego odniesienia.
 - Jednostki: hPa/mbar/Pa/kPa/inHg, °C/°F, % RH. Brak jednostki oznacza odpowiednio hPa, °C, %.
 - Bez danych o wietrze, opadach, zachmurzeniu i radarze nie wylicza wiarygodnego prawdopodobieństwa deszczu.
-- Każda zmiana konfiguracji czujników zachowuje istniejącą historię, więc po zmianie na inną stację warto usunąć i dodać integrację ponownie.
+- Zmiana wybranych encji w konfiguracji resetuje zapisaną historię pomiarów po ponownym załadowaniu integracji.
 
 ## Testy
 
